@@ -1,0 +1,6 @@
+framework module SafeAnchors {
+  umbrella header "SafeAnchors-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SafeAnchors",
+  "version": "0.1.0",
+  "summary": "UIView extension that provides anchors that correspond to the view's anchors prior to iOS11, and to safeAreaLayoutGuide' anchors in iOS11 or above",
+  "homepage": "https://github.com/acecilia/SafeAnchors",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrés Cecilia Luque": "alu@unwire.dk"
+  },
+  "source": {
+    "git": "https://github.com/acecilia/SafeAnchors.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Sources/**/*",
+  "frameworks": "UIKit"
+}

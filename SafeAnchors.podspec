@@ -9,34 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = 'SafeAnchors'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SafeAnchors.'
+  s.summary          = 'UIView extension that provides anchors that correspond to the view\'s anchors prior to iOS11, and to safeAreaLayoutGuide\' anchors in iOS11 or above'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Andrés Cecilia Luque/SafeAnchors'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/acecilia/SafeAnchors'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrés Cecilia Luque' => 'alu@unwire.dk' }
-  s.source           = { :git => 'https://github.com/Andrés Cecilia Luque/SafeAnchors.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/acecilia/SafeAnchors.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SafeAnchors/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SafeAnchors' => ['SafeAnchors/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '9.0'
+  s.source_files = 'Sources/**/*'
+  s.frameworks = 'UIKit'
 end

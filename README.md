@@ -1,15 +1,5 @@
 # SafeAnchors
-
-[![CI Status](http://img.shields.io/travis/Andrés Cecilia Luque/SafeAnchors.svg?style=flat)](https://travis-ci.org/Andrés Cecilia Luque/SafeAnchors)
-[![Version](https://img.shields.io/cocoapods/v/SafeAnchors.svg?style=flat)](http://cocoapods.org/pods/SafeAnchors)
-[![License](https://img.shields.io/cocoapods/l/SafeAnchors.svg?style=flat)](http://cocoapods.org/pods/SafeAnchors)
-[![Platform](https://img.shields.io/cocoapods/p/SafeAnchors.svg?style=flat)](http://cocoapods.org/pods/SafeAnchors)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+#### UIView extension that provides anchors that correspond to the view's anchors prior to iOS11, and to safeAreaLayoutGuide's anchors in iOS11 or above
 
 ## Installation
 
