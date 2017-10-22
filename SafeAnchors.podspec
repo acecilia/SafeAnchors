@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SafeAnchors'
   s.version          = '0.1.0'
-  s.summary          = 'UIView extension that provides anchors that correspond to the view\'s anchors prior to iOS11, and to safeAreaLayoutGuide\' anchors in iOS11 or above'
+  s.summary          = 'UIView extension providing anchors that return the view\'s anchors before iOS11, and the safeAreaLayoutGuide\'s anchors in iOS11 or above'
 
   s.homepage         = 'https://github.com/acecilia/SafeAnchors'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

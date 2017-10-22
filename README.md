@@ -1,5 +1,5 @@
 # SafeAnchors
-#### UIView extension that provides anchors that correspond to the view's anchors prior to iOS11, and to safeAreaLayoutGuide's anchors in iOS11 or above
+#### UIView extension providing anchors that return the view's anchors before iOS11, and the safeAreaLayoutGuide's anchors in iOS11 or above
 
 ## Installation
 
