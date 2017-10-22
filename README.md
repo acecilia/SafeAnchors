@@ -10,6 +10,12 @@ it, simply add the following line to your Podfile:
 pod 'SafeAnchors'
 ```
 
+If you want to have this framework **globally** available in your Swift project (without the need of importing it in every source file), I managed to do that by adding the following line to my bridging header: 
+
+```objective-c
+#import "SafeAnchors/SafeAnchors-Swift.h"
+```
+
 ## Author
 
 Andrés Cecilia Luque (acecilia), a.cecilia.luque@gmail.com
