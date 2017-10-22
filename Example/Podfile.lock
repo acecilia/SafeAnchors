@@ -1,5 +1,5 @@
 PODS:
-  - SafeAnchors (0.1.0)
+  - SafeAnchors (0.1.1)
 
 DEPENDENCIES:
   - SafeAnchors (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SafeAnchors: 365dfb905cb1281873ef0ca8348e70f832c87fe1
+  SafeAnchors: 1c026ffabb0af3fbed8153b7bcf1fd15b389c096
 
 PODFILE CHECKSUM: b42e4479c3e5cbc24848d90daf98c809a240421a
 
