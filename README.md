@@ -12,7 +12,7 @@ pod 'SafeAnchors'
 
 ## Author
 
-Andrés Cecilia Luque, alu@unwire.dk
+Andrés Cecilia Luque (acecilia), a.cecilia.luque@gmail.com
 
 ## License
 

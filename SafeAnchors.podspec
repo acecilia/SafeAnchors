@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/acecilia/SafeAnchors'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Andrés Cecilia Luque' => 'alu@unwire.dk' }
+  s.author           = { 'Andrés Cecilia Luque' => 'a.cecilia.luque@gmail.com' }
   s.source           = { :git => 'https://github.com/acecilia/SafeAnchors.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
