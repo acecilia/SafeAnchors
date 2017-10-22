@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SafeAnchors_Example' do
+  pod 'SafeAnchors', :path => '../'
+
+  target 'SafeAnchors_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
